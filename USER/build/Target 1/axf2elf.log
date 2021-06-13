@@ -1,0 +1,4 @@
+objcopy.exe --update-section ER_IROM1="e:\Example\电赛\f103rct6\2017_三相逆变\SPWMPID-103\SPWMPID-103\USER\build\Target 1\USER.bin" "e:\Example\电赛\f103rct6\2017_三相逆变\SPWMPID-103\SPWMPID-103\USER\build\Target 1\USER.axf" "e:\Example\电赛\f103rct6\2017_三相逆变\SPWMPID-103\SPWMPID-103\USER\build\Target 1\USER.elf"
+
+objcopy.exe: e:\Example\电赛\f103rct6\2017_三相逆变\SPWMPID-103\SPWMPID-103\USER\build\Target 1\USER.elf: warning: allocated section `RW_IRAM1' not in segment
+
